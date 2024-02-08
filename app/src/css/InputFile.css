@@ -1,0 +1,12 @@
+.InputFile .btn-file {
+  width: 100%;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.InputFile .img-dibujo {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #82bb00;
+  border-radius: 10px;
+}

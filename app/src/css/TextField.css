@@ -1,0 +1,50 @@
+.TextField {
+  margin-bottom: 1em;
+}
+
+.TextField.h4 {
+  font-weight: 900;
+  color: #27d2f0;
+}
+
+.TextField.h5 {
+  font-weight: 900;
+  color: #82bb00;
+}
+
+.TextField.h6 {
+  font-weight: 700;
+  color: #d2010d;
+}
+
+.TextField.center {
+  text-align: center;
+}
+
+.TextField.body2.justify {
+  font-size: 0.8em;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 480px) {
+  .TextField.h4 {
+    font-size: 1.1em !important;
+  }
+
+  .TextField.h5 {
+    font-size: 1em !important;
+  }
+
+  .TextField.h6 {
+    font-size: 0.9em !important;
+  }
+
+  .TextField.body1 {
+    font-size: 0.8em !important;
+  }
+
+  .DocumentoFirmado .autorizacion .TextField.body2  {
+    font-size: 0.7em !important;
+
+  }
+}

@@ -1,0 +1,50 @@
+@import "../css/fonts.css";
+
+.Insituciones {
+  width: 100%;
+  overflow: hidden;
+}
+
+.Insituciones .logo {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.Insituciones .logo img {
+  width: 20%;
+}
+
+.Insituciones .content {
+  width: 40%;
+  height: 80vh;
+  margin: 0 auto;
+  padding-bottom: 1em;
+  background: #f3f3f3;
+}
+
+.Insituciones .content .mural {
+  width: 100%;
+  margin-bottom: 2em;
+  transform: scale(1.15);
+}
+
+.Insituciones .content h4 {
+  font-family: "Light";
+  margin-top: 1em;
+  padding: 0 1em;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+   .Insituciones .logo img {
+      width: 30%;
+    }
+
+   .Insituciones .content {
+      width: 90%;
+    }
+    
+}

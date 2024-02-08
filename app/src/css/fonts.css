@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Regular";
+  src: url("./font/ColgateReady-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url("./font/ColgateReady-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BoldItalic";
+  src: url("./font/ColgateReady-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ExtraLight";
+  src: url("./font/ColgateReady-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ExtraLightItalic";
+  src: url("./font/ColgateReady-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Heavy";
+  src: url("./font/ColgateReady-Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeavyItalic";
+  src: url("./font/ColgateReady-HeavyItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Italic";
+  src: url("./font/ColgateReady-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Light";
+  src: url("./font/ColgateReady-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LightItalic";
+  src: url("./font/ColgateReady-LightItalic.ttf") format("truetype");
+}

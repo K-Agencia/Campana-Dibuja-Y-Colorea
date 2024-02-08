@@ -1,0 +1,86 @@
+@import "../css/fonts.css";
+
+.Formulario {
+  width: 100%;
+  padding-bottom: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("./img/fondo.jpg") no-repeat center center fixed;
+}
+
+.Formulario .portada {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Formulario .portada .titulo {
+  /* -webkit-text-stroke: 1px #ffffff; */
+  position: relative;
+  bottom: 1.5em;
+  color: #d2010d;
+  text-shadow: 0px 5px 5px #ffffff;
+}
+
+.Formulario .portada .titulo h3 {
+  font-family: "HeavyItalic";
+}
+
+.Formulario .portada .titulo h4 {
+  font-family: "BoldItalic";
+}
+
+.Formulario img.img-formulario {
+  width: 40%;
+}
+
+.Formulario .container {
+  margin: 2em 0 2em;
+}
+
+.Formulario .paper-form {
+  width: 30%;
+  padding: 1em 2em;
+}
+
+.Formulario .fecha-dibujo{
+  width: 100%;
+}
+
+.Formulario .fecha-dibujo fieldset{
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.Formulario .container-btn-submit {
+  width: 100%;
+  margin: 1em 0;
+}
+
+.Formulario .container-btn-submit .btn-submit {
+  width: 100%;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 480px) {
+  .Formulario .paper-form {
+    width: 80%;
+    padding: 1em 1.5em;
+  }
+
+  .Formulario .portada .titulo h3 {
+    font-size: 1.8em;
+  }
+
+  .Formulario .portada .titulo h4 {
+    font-size: 1.5em;
+  }
+
+  .Formulario img.img-formulario {
+    width: 100%;
+  }
+}

@@ -1,0 +1,34 @@
+# Dependencias
+node_modules/
+src/uploads
+
+# Archivos de configuración
+.env
+
+# Archivos de registro
+logs/
+*.log
+
+# Archivos de compilación
+dist/
+build/
+
+# Archivos de caché
+.pnp/
+.pnp.js
+.cache/
+.yarn/
+*.yarnclean
+
+# Archivos de respaldo
+*.bak
+*.backup
+
+# Archivos de pruebas
+coverage/
+
+# Otros archivos generados
+.DS_Store
+Thumbs.db
+
+*.zip
